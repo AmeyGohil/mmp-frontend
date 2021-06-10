@@ -360,7 +360,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
 }
 
-#hero .btn-get-started {
+.btn-get-a-quote {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -373,7 +373,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid #3498db;
 }
 
-#hero .btn-get-started:hover {
+.btn-get-a-quote:hover {
   background: #3498db;
   color: #fff;
 }
