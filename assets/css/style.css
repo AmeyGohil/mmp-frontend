@@ -672,6 +672,24 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+.services .flex-box{
+  display: flex;
+  flex-direction: row;
+}
+.services .flex-2-3>div{
+  flex: 2;
+}
+.services .flex-2-3>div+div{
+  flex: 3;
+}
+.services .flex-3-2>div{
+  flex: 3;
+}
+.services .flex-3-2>div+div{
+  flex: 2;
+}
+
 .services .icon-box {
   padding: 30px;
   position: relative;
@@ -758,7 +776,7 @@ section {
   padding-top: 20px;
 }
 
-.more-services .card {
+.more-services .card, .services .card {
   border: 0;
   padding: 160px 20px 20px 20px;
   position: relative;
@@ -768,7 +786,7 @@ section {
   background-position: center center;
 }
 
-.more-services .card-body {
+.more-services .card-body, .services .card-body{
   z-index: 10;
   background: rgba(255, 255, 255, 0.9);
   padding: 15px 30px;
@@ -778,21 +796,21 @@ section {
   border-radius: 5px;
 }
 
-.more-services .card-title {
+.more-services .card-title, .services .card-title {
   font-weight: 700;
   text-align: center;
   margin-bottom: 15px;
 }
 
-.more-services .card-title a {
+.more-services .card-title a, .services .card-title a {
   color: #222222;
 }
 
-.more-services .card-text {
+.more-services .card-text, .services .card-text {
   color: #5e5e5e;
 }
 
-.more-services .read-more a {
+.more-services .read-more a, .services .read-more a {
   color: #777777;
   text-transform: uppercase;
   font-weight: 600;
@@ -800,15 +818,15 @@ section {
   transition: 0.4s;
 }
 
-.more-services .read-more a:hover {
+.more-services .read-more a:hover, .services .read-more a:hover {
   text-decoration: underline;
 }
 
-.more-services .card:hover .card-body {
+.more-services .card:hover .card-body, .services .card:hover .card-body {
   background: #3498db;
 }
 
-.more-services .card:hover .read-more a, .more-services .card:hover .card-title, .more-services .card:hover .card-title a, .more-services .card:hover .card-text {
+.more-services .card:hover .read-more a, .more-services .card:hover .card-title, .more-services .card:hover .card-title a, .more-services .card:hover .card-text, .services .card:hover .read-more a, .services .card:hover .card-title, .services .card:hover .card-title a, .services .card:hover .card-text {
   color: #fff;
 }
 
