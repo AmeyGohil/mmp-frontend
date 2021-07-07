@@ -24,6 +24,7 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|PT+Sans|Raleway" rel="stylesheet">
 
   <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -179,74 +180,137 @@
     </section>
     <!-- End Services Section -->
 
-    <!-- ======= Clients Section ======= -->
-    <!--<section id="clients" class="clients clients">-->
-    <!--  <div class="container">-->
 
-    <!--    <div class="row">-->
+    <!-- ======= Process Flow Section ======= -->
+    <section id="process" class="process clients">
+      <div class="container">
 
-    <!--      <div class="col-lg-2 col-md-4 col-6">-->
-    <!--        <img src="assets/img/clients/client-1.png" class="img-fluid" alt="" data-aos="zoom-in">-->
-    <!--      </div>-->
+        <div class="section-title" data-aos="fade-up">
+          <h2>Process Flow</h2>
+        </div>
 
-    <!--      <div class="col-lg-2 col-md-4 col-6">-->
-    <!--        <img src="assets/img/clients/client-2.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">-->
-    <!--      </div>-->
+        <div class="content">
+          <div class="template-wrap">
 
-    <!--      <div class="col-lg-2 col-md-4 col-6">-->
-    <!--        <img src="assets/img/clients/client-3.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="200">-->
-    <!--      </div>-->
+            <div class="ep-flowchart" id="ep-flowchart">
+              <div class="ep-svg-wrap">
 
-    <!--      <div class="col-lg-2 col-md-4 col-6">-->
-    <!--        <img src="assets/img/clients/client-4.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="300">-->
-    <!--      </div>-->
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 540">
+                  <g id="Page-1" fill="none" fill-rule="evenodd">
+                    <g id="Course-Template">
+                      <g id="arrows" transform="translate(163 98)">
+                        <g id="arrows/arrow-1.2" transform="rotate(90 69.5 70)">
+                          <g id="arrow-1.2">
+                            <path id="Line" stroke="#89969F" stroke-linecap="square" d="M.336 2.5h38.46"/>
+                            <polygon id="Triangle" fill="#89969F" points="37 5 37 0 40 2.5"/>
+                          </g>
+                        </g>
+                        <g id="arrows/arrow-1.2-copy" transform="rotate(90 16.5 123)">
+                          <g id="arrow-1.2">
+                            <path id="Line" stroke="#89969F" stroke-linecap="square" d="M.336 2.5h38.46"/>
+                            <polygon id="Triangle" fill="#89969F" points="37 5 37 0 40 2.5"/>
+                          </g>
+                        </g>
+                        <g id="arrows/arrow-4" transform="rotate(90 -37.5 176)">
+                          <g id="arrow-4">
+                            <path id="Line" stroke="#89969F" stroke-linecap="square" d="M.336 2.5h38.46"/>
+                            <polygon id="Triangle" fill="#89969F" points="37 5 37 0 40 2.5"/>
+                          </g>
+                        </g>
+                        <g id="arrows/arrow-4" transform="rotate(90 -79.5 218)">
+                          <g id="arrow-4">
+                            <path id="Line" stroke="#89969F" stroke-linecap="square" d="M.336 2.5h38.46"/>
+                            <polygon id="Triangle" fill="#89969F" points="37 5 37 0 40 2.5"/>
+                          </g>
+                        </g>
+                      </g>
+                      <g id="ep-content" class="ep-svg-block"
+                         @click="{{ display = true; selected = 'ep-content' }}"
+                         transform="translate(35 56)">
+                        <rect id="Rectangle" width="520" height="40" fill="#8BE5AD" rx="20"/>
+                        <text id="Content" fill="#586075" font-family="Roboto-Regular, Roboto" font-size="18" letter-spacing="1">
+                          <tspan x="27.022" y="25">Upload the CAD/PDF of the required part on the website</tspan>
+                        </text>
+                      </g>
+                      <g id="ep-form" transform="translate(88 140)"
+                         @click="{{ display = true; selected = 'ep-media' }}"
+                         class="ep-svg-block">
+                        <rect id="Rectangle" width="425" height="63" fill="#8BE5AD" rx="33"></rect>
+                        <text id="Content" fill="#586075" font-family="Roboto-Regular, Roboto" font-size="18" letter-spacing="1">
+                          <tspan x="33.022" y="25">Get bids on your project from manufactures</tspan>
+                          <tspan x="78" y="50">(approx. cost and time required)</tspan>
+                        </text>
+                      </g>
+                      <g id="ep-media" class="ep-svg-block"
+                         @click="{{ display = true; selected = 'ep-media' }}"
+                         transform="translate(88 246)">
+                        <rect id="Rectangle" width="425" height="63" fill="#8BE5AD" rx="33"></rect>
+                        <text id="Content" fill="#586075" font-family="Roboto-Regular, Roboto" font-size="18" letter-spacing="1">
+                          <tspan x="33.022" y="25">Select the bid which suits you the most and</tspan>
+                          <tspan x="78" y="50">confirm the order(advance payment)</tspan>
+                        </text>
+                      </g>
+                      <g id="ep-elements" class="ep-svg-block"
+                         @click="{{ display = true; selected = 'ep-elements' }}"
+                         transform="translate(90 353)">
+                        <rect id="Rectangle" width="420" height="40" fill="#8BE5AD" rx="20"/>
+                        <text id="Content" fill="#586075" font-family="Roboto-Regular, Roboto" font-size="18" letter-spacing="1">
+                          <tspan x="27.022" y="25">Get quality control data and product pictures</tspan>
+                        </text>
+                      </g>
+                      <g id="ep-unity" class="ep-svg-block"
+                         @click="{{ display = true; selected = 'ep-unity' }}"
+                         transform="translate(120 437)">
+                        <rect id="Rectangle" width="355" height="40" fill="#8BE5AD" rx="20"/>
+                        <text id="Content" fill="#586075" font-family="Roboto-Regular, Roboto" font-size="18" letter-spacing="1">
+                          <tspan x="27.022" y="25">Product is delivered to your doorstep</tspan>
+                        </text>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
 
-    <!--      <div class="col-lg-2 col-md-4 col-6">-->
-    <!--        <img src="assets/img/clients/client-5.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="400">-->
-    <!--      </div>-->
+              </div>
+              <transition name="pop-details">
+                <div class="ep-detail-wrap" v-show="selected != ''"
+                     @click="{{selected = ''}}">
 
-    <!--      <div class="col-lg-2 col-md-4 col-6">-->
-    <!--        <img src="assets/img/clients/client-6.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500">-->
-    <!--      </div>-->
+                  <div class="ep-detail" v-show="selected == 'ep-content'">
+                    <h3>Content</h3>
+                    <p>The Message. What we are trying to say.</p>
+                  </div>
+                  <div class="ep-detail" v-show="selected == 'ep-form'">
+                    <h3>Form</h3>
+                    <p>How you will express the message.</p>
+                  </div>
+                  <div class="ep-detail" v-show="selected == 'ep-media'">
+                    <h3>Media</h3>
+                    <p>The tools and materials you use to convey the message</p>
+                  </div>
+                  <div class="ep-detail" v-show="selected == 'ep-elements'">
+                    <h3>Elements of Design</h3>
+                    <p>Line, Shape, Value, Texture, Color, Illusion of Depth, Illusion of Movement</p>
+                  </div>
+                  <div class="ep-detail" v-show="selected == 'ep-principles'">
+                    <h3>Principles of Organization</h3>
+                    <p>Balance, Movement, Emphasis/Dpminance/Focal Point, Rhythm (through repetition), Economy, Variety</p>
+                  </div>
+                  <div class="ep-detail" v-show="selected == 'ep-unity'">
+                    <h3>Unity</h3>
+                    <p>Both a guiding principle and the end-result of a well-considered design.</p>
+                  </div>
 
-    <!--    </div>-->
 
-    <!--  </div>-->
-    <!--</section>-->
-    <!-- End Clients Section -->
+                </div>
+              </transition>
 
-    <!-- ======= About Us Section ======= -->
-    <!--<section id="about" class="about">-->
-    <!--  <div class="container">-->
+            </div>
 
-    <!--    <div class="section-title" data-aos="fade-up">-->
-    <!--      <h2>About Us</h2>-->
-    <!--    </div>-->
+          </div>
+        </div>
 
-    <!--    <div class="row content">-->
-    <!--      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">-->
-    <!--        <p>-->
-    <!--          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore-->
-    <!--          magna aliqua.-->
-    <!--        </p>-->
-    <!--        <ul>-->
-    <!--          <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>-->
-    <!--          <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>-->
-    <!--          <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>-->
-    <!--        </ul>-->
-    <!--      </div>-->
-    <!--      <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">-->
-    <!--        <p>-->
-    <!--          Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate-->
-    <!--          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in-->
-    <!--          culpa qui officia deserunt mollit anim id est laborum.-->
-    <!--        </p>-->
-    <!--        <a href="#" class="btn-learn-more">Learn More</a>-->
-    <!--      </div>-->
-    <!--    </div>-->
-
-    <!--  </div>-->
-    <!--</section>-->
+      </div>
+    </section>
     <!-- End About Us Section -->
 
     <!-- ======= Counts Section ======= -->
@@ -1023,6 +1087,7 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.min.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
